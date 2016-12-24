@@ -1,0 +1,16 @@
+PODS:
+  - EDStarRating (1.1)
+  - MBProgressHUD (0.8)
+  - Reachability (3.0.0)
+
+DEPENDENCIES:
+  - EDStarRating
+  - MBProgressHUD (~> 0.8)
+  - Reachability (~> 3.0.0)
+
+SPEC CHECKSUMS:
+  EDStarRating: c7b87f9866be0ea29bb054964023b8eb3f18286c
+  MBProgressHUD: c356980b0cd097f19acec959b49dca5eb8ec31be
+  Reachability: d369b8d7d33730a4bb71d0f601e287da9867c9dd
+
+COCOAPODS: 0.33.1

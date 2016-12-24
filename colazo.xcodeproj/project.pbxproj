@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CD45E04189BD5370092C1EA /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD45E03189BD5370092C1EA /* GoogleMaps.framework */; };
+		5CD45E06189BD55C0092C1EA /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CD45E05189BD55C0092C1EA /* GoogleMaps.bundle */; };
+		8F40F83C185E6BCE0027258F /* biciamigo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F40F83B185E6BCE0027258F /* biciamigo@2x.png */; };
+		8F40F83E185E6C140027258F /* elbicitante@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F40F83D185E6C140027258F /* elbicitante@2x.png */; };
+		8F40F840185E6C370027258F /* atencion@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F40F83F185E6C370027258F /* atencion@2x.png */; };
+		8F40F842185E6C560027258F /* ruta@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F40F841185E6C560027258F /* ruta@2x.png */; };
+		8F40F844185E6C710027258F /* taller@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F40F843185E6C710027258F /* taller@2x.png */; };
+		8F40F846185E6C8A0027258F /* parqueadero@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F40F845185E6C8A0027258F /* parqueadero@2x.png */; };
+		8F40F848185E6CAA0027258F /* tienda@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F40F847185E6CAA0027258F /* tienda@2x.png */; };
+		8F40F84B185E6E5B0027258F /* Ciclovia.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F40F84A185E6E5B0027258F /* Ciclovia.m */; };
+		8F40F84E185E6E5B0027258F /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F40F84D185E6E5B0027258F /* Place.m */; };
+		8F40F851185E6E5B0027258F /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F40F850185E6E5B0027258F /* Route.m */; };
+		8F40F853185E776C0027258F /* ciclovias.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F40F852185E776C0027258F /* ciclovias.png */; };
+		8F40F855185E77750027258F /* ciclorutas.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F40F854185E77750027258F /* ciclorutas.png */; };
+		8F40F858185E963D0027258F /* DescribePlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F40F857185E963D0027258F /* DescribePlaceViewController.m */; };
+		8F76F023184EF3B600EC4823 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F76F022184EF3B600EC4823 /* Foundation.framework */; };
+		8F76F025184EF3B600EC4823 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F76F024184EF3B600EC4823 /* CoreGraphics.framework */; };
+		8F76F027184EF3B600EC4823 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F76F026184EF3B600EC4823 /* UIKit.framework */; };
+		8F76F029184EF3B600EC4823 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F76F028184EF3B600EC4823 /* CoreData.framework */; };
+		8F76F02F184EF3B600EC4823 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F76F02D184EF3B600EC4823 /* InfoPlist.strings */; };
+		8F76F031184EF3B600EC4823 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F76F030184EF3B600EC4823 /* main.m */; };
+		8F76F035184EF3B600EC4823 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F76F034184EF3B600EC4823 /* AppDelegate.m */; };
+		8F76F038184EF3B600EC4823 /* colazo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F76F036184EF3B600EC4823 /* colazo.xcdatamodeld */; };
+		8F76F03A184EF3B600EC4823 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F76F039184EF3B600EC4823 /* Images.xcassets */; };
+		8F76F041184EF3B600EC4823 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F76F040184EF3B600EC4823 /* XCTest.framework */; };
+		8F76F042184EF3B600EC4823 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F76F022184EF3B600EC4823 /* Foundation.framework */; };
+		8F76F043184EF3B600EC4823 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F76F026184EF3B600EC4823 /* UIKit.framework */; };
+		8F76F044184EF3B600EC4823 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F76F028184EF3B600EC4823 /* CoreData.framework */; };
+		8F76F04C184EF3B600EC4823 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F76F04A184EF3B600EC4823 /* InfoPlist.strings */; };
+		8F76F04E184EF3B600EC4823 /* colazoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F76F04D184EF3B600EC4823 /* colazoTests.m */; };
+		8F76F066184EF7B100EC4823 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F76F065184EF7B100EC4823 /* AVFoundation.framework */; };
+		8F76F068184EF7C200EC4823 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F76F067184EF7C200EC4823 /* CoreLocation.framework */; };
+		8F76F06A184EF7C900EC4823 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F76F069184EF7C900EC4823 /* CoreText.framework */; };
+		8F76F06C184EF7CF00EC4823 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F76F06B184EF7CF00EC4823 /* GLKit.framework */; };
+		8F76F06E184EF7D700EC4823 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F76F06D184EF7D700EC4823 /* ImageIO.framework */; };
+		8F76F070184EF7DE00EC4823 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F76F06F184EF7DE00EC4823 /* libc++.dylib */; };
+		8F76F072184EF7E900EC4823 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F76F071184EF7E900EC4823 /* libicucore.dylib */; };
+		8F76F074184EF7F200EC4823 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F76F073184EF7F200EC4823 /* libz.dylib */; };
+		8F76F076184EF7FA00EC4823 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F76F075184EF7FA00EC4823 /* OpenGLES.framework */; };
+		8F76F078184EF80000EC4823 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F76F077184EF80000EC4823 /* QuartzCore.framework */; };
+		8F76F07A184EF80B00EC4823 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F76F079184EF80B00EC4823 /* SystemConfiguration.framework */; };
+		8F76F07F184F010100EC4823 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8F76F07E184F010100EC4823 /* Podfile */; };
+		8F76F082184F02DA00EC4823 /* BicimapaAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F76F081184F02DA00EC4823 /* BicimapaAPI.m */; };
+		8F76F08D184F0A6700EC4823 /* biciamigo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F76F086184F0A6700EC4823 /* biciamigo.png */; };
+		8F76F08E184F0A6700EC4823 /* elbicitante.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F76F087184F0A6700EC4823 /* elbicitante.png */; };
+		8F76F08F184F0A6700EC4823 /* atencion.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F76F088184F0A6700EC4823 /* atencion.png */; };
+		8F76F090184F0A6700EC4823 /* ruta.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F76F089184F0A6700EC4823 /* ruta.png */; };
+		8F76F091184F0A6700EC4823 /* taller.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F76F08A184F0A6700EC4823 /* taller.png */; };
+		8F76F092184F0A6700EC4823 /* parqueadero.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F76F08B184F0A6700EC4823 /* parqueadero.png */; };
+		8F76F093184F0A6700EC4823 /* tienda.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F76F08C184F0A6700EC4823 /* tienda.png */; };
+		8F76F09F185045DF00EC4823 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F76F09D185045DF00EC4823 /* ViewController.m */; };
+		8F76F0A418504E8600EC4823 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F76F0A218504E8600EC4823 /* ModalViewController.m */; };
+		8F76F0A718504F4200EC4823 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F76F0A618504F4200EC4823 /* Storyboard.storyboard */; };
+		8FC9D5B3185819E100E751BA /* MarkerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC9D5B1185819E100E751BA /* MarkerViewController.m */; };
+		8FC9D5BA185832C500E751BA /* NSString_stripHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC9D5B8185832C500E751BA /* NSString_stripHtml.m */; };
+		8FC9D5BD185908FE00E751BA /* AddPlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC9D5BC185908FE00E751BA /* AddPlaceViewController.m */; };
+		8FDFD2F618613981003AD0E6 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FDFD2F418613981003AD0E6 /* star.png */; };
+		8FDFD2F718613981003AD0E6 /* starhighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FDFD2F518613981003AD0E6 /* starhighlighted.png */; };
+		8FF358A8186028470059CB4B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF358A7186028470059CB4B /* AdSupport.framework */; };
+		9037517C19CA12AB00BBFF5B /* alquiler.png in Resources */ = {isa = PBXBuildFile; fileRef = 9037517B19CA12AB00BBFF5B /* alquiler.png */; };
+		9037518719CA207800BBFF5B /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9037518619CA207800BBFF5B /* libGoogleAnalyticsServices.a */; };
+		9037518919CA240800BBFF5B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9037518819CA240800BBFF5B /* libsqlite3.dylib */; };
+		CF000AFD56994BDF8C4945C4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 365C440FDF9F42D8834A01BA /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F76F045184EF3B600EC4823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F76F017184EF3B500EC4823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F76F01E184EF3B600EC4823;
+			remoteInfo = colazo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		365C440FDF9F42D8834A01BA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD45E03189BD5370092C1EA /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		5CD45E05189BD55C0092C1EA /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		8F40F83B185E6BCE0027258F /* biciamigo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "biciamigo@2x.png"; sourceTree = "<group>"; };
+		8F40F83D185E6C140027258F /* elbicitante@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "elbicitante@2x.png"; sourceTree = "<group>"; };
+		8F40F83F185E6C370027258F /* atencion@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "atencion@2x.png"; sourceTree = "<group>"; };
+		8F40F841185E6C560027258F /* ruta@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ruta@2x.png"; sourceTree = "<group>"; };
+		8F40F843185E6C710027258F /* taller@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taller@2x.png"; sourceTree = "<group>"; };
+		8F40F845185E6C8A0027258F /* parqueadero@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parqueadero@2x.png"; sourceTree = "<group>"; };
+		8F40F847185E6CAA0027258F /* tienda@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tienda@2x.png"; sourceTree = "<group>"; };
+		8F40F849185E6E5B0027258F /* Ciclovia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ciclovia.h; sourceTree = "<group>"; };
+		8F40F84A185E6E5B0027258F /* Ciclovia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ciclovia.m; sourceTree = "<group>"; };
+		8F40F84C185E6E5B0027258F /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		8F40F84D185E6E5B0027258F /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		8F40F84F185E6E5B0027258F /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		8F40F850185E6E5B0027258F /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
+		8F40F852185E776C0027258F /* ciclovias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ciclovias.png; sourceTree = "<group>"; };
+		8F40F854185E77750027258F /* ciclorutas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ciclorutas.png; sourceTree = "<group>"; };
+		8F40F856185E963D0027258F /* DescribePlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescribePlaceViewController.h; sourceTree = "<group>"; };
+		8F40F857185E963D0027258F /* DescribePlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescribePlaceViewController.m; sourceTree = "<group>"; };
+		8F76F01F184EF3B600EC4823 /* Bicimapa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bicimapa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F76F022184EF3B600EC4823 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F76F024184EF3B600EC4823 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F76F026184EF3B600EC4823 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F76F028184EF3B600EC4823 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8F76F02C184EF3B600EC4823 /* colazo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "colazo-Info.plist"; sourceTree = "<group>"; };
+		8F76F02E184EF3B600EC4823 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F76F030184EF3B600EC4823 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F76F032184EF3B600EC4823 /* colazo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "colazo-Prefix.pch"; sourceTree = "<group>"; };
+		8F76F033184EF3B600EC4823 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F76F034184EF3B600EC4823 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F76F037184EF3B600EC4823 /* colazo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = colazo.xcdatamodel; sourceTree = "<group>"; };
+		8F76F039184EF3B600EC4823 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8F76F03F184EF3B600EC4823 /* colazoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colazoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F76F040184EF3B600EC4823 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8F76F049184EF3B600EC4823 /* colazoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "colazoTests-Info.plist"; sourceTree = "<group>"; };
+		8F76F04B184EF3B600EC4823 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F76F04D184EF3B600EC4823 /* colazoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = colazoTests.m; sourceTree = "<group>"; };
+		8F76F065184EF7B100EC4823 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8F76F067184EF7C200EC4823 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8F76F069184EF7C900EC4823 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		8F76F06B184EF7CF00EC4823 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		8F76F06D184EF7D700EC4823 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		8F76F06F184EF7DE00EC4823 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		8F76F071184EF7E900EC4823 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		8F76F073184EF7F200EC4823 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8F76F075184EF7FA00EC4823 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8F76F077184EF80000EC4823 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8F76F079184EF80B00EC4823 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8F76F07E184F010100EC4823 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		8F76F080184F02DA00EC4823 /* BicimapaAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BicimapaAPI.h; sourceTree = "<group>"; };
+		8F76F081184F02DA00EC4823 /* BicimapaAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BicimapaAPI.m; sourceTree = "<group>"; };
+		8F76F086184F0A6700EC4823 /* biciamigo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biciamigo.png; sourceTree = "<group>"; };
+		8F76F087184F0A6700EC4823 /* elbicitante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elbicitante.png; sourceTree = "<group>"; };
+		8F76F088184F0A6700EC4823 /* atencion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = atencion.png; sourceTree = "<group>"; };
+		8F76F089184F0A6700EC4823 /* ruta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruta.png; sourceTree = "<group>"; };
+		8F76F08A184F0A6700EC4823 /* taller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taller.png; sourceTree = "<group>"; };
+		8F76F08B184F0A6700EC4823 /* parqueadero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parqueadero.png; sourceTree = "<group>"; };
+		8F76F08C184F0A6700EC4823 /* tienda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tienda.png; sourceTree = "<group>"; };
+		8F76F09C185045DF00EC4823 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F76F09D185045DF00EC4823 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F76F0A118504E8600EC4823 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		8F76F0A218504E8600EC4823 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		8F76F0A618504F4200EC4823 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		8F76F0ED1850541400EC4823 /* FilterDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterDelegate.h; sourceTree = "<group>"; };
+		8FC9D5B0185819E100E751BA /* MarkerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerViewController.h; sourceTree = "<group>"; };
+		8FC9D5B1185819E100E751BA /* MarkerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerViewController.m; sourceTree = "<group>"; };
+		8FC9D5B8185832C500E751BA /* NSString_stripHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_stripHtml.m; sourceTree = "<group>"; };
+		8FC9D5B9185832C500E751BA /* NSString_stripHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_stripHtml.h; sourceTree = "<group>"; };
+		8FC9D5BB185908FE00E751BA /* AddPlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPlaceViewController.h; sourceTree = "<group>"; };
+		8FC9D5BC185908FE00E751BA /* AddPlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPlaceViewController.m; sourceTree = "<group>"; };
+		8FDFD2F418613981003AD0E6 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		8FDFD2F518613981003AD0E6 /* starhighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starhighlighted.png; sourceTree = "<group>"; };
+		8FDFD2F818615A7D003AD0E6 /* KeyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyHeader.h; sourceTree = "<group>"; };
+		8FF358A7186028470059CB4B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		9037517B19CA12AB00BBFF5B /* alquiler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alquiler.png; sourceTree = "<group>"; };
+		9037517D19CA1F8800BBFF5B /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		9037517E19CA1F8800BBFF5B /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		9037517F19CA1F8800BBFF5B /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		9037518019CA1F8800BBFF5B /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		9037518119CA1F8800BBFF5B /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		9037518219CA1F8800BBFF5B /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		9037518319CA1F8800BBFF5B /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		9037518419CA1F8800BBFF5B /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		9037518519CA1F8800BBFF5B /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		9037518619CA207800BBFF5B /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		9037518819CA240800BBFF5B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		AE1E869BFED843F18EEC3CAE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F76F01C184EF3B600EC4823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9037518919CA240800BBFF5B /* libsqlite3.dylib in Frameworks */,
+				5CD45E04189BD5370092C1EA /* GoogleMaps.framework in Frameworks */,
+				8FF358A8186028470059CB4B /* AdSupport.framework in Frameworks */,
+				8F76F07A184EF80B00EC4823 /* SystemConfiguration.framework in Frameworks */,
+				8F76F078184EF80000EC4823 /* QuartzCore.framework in Frameworks */,
+				8F76F076184EF7FA00EC4823 /* OpenGLES.framework in Frameworks */,
+				8F76F074184EF7F200EC4823 /* libz.dylib in Frameworks */,
+				8F76F072184EF7E900EC4823 /* libicucore.dylib in Frameworks */,
+				8F76F070184EF7DE00EC4823 /* libc++.dylib in Frameworks */,
+				8F76F06E184EF7D700EC4823 /* ImageIO.framework in Frameworks */,
+				8F76F06C184EF7CF00EC4823 /* GLKit.framework in Frameworks */,
+				8F76F06A184EF7C900EC4823 /* CoreText.framework in Frameworks */,
+				8F76F068184EF7C200EC4823 /* CoreLocation.framework in Frameworks */,
+				8F76F029184EF3B600EC4823 /* CoreData.framework in Frameworks */,
+				8F76F066184EF7B100EC4823 /* AVFoundation.framework in Frameworks */,
+				9037518719CA207800BBFF5B /* libGoogleAnalyticsServices.a in Frameworks */,
+				8F76F025184EF3B600EC4823 /* CoreGraphics.framework in Frameworks */,
+				8F76F027184EF3B600EC4823 /* UIKit.framework in Frameworks */,
+				8F76F023184EF3B600EC4823 /* Foundation.framework in Frameworks */,
+				CF000AFD56994BDF8C4945C4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F76F03C184EF3B600EC4823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F76F041184EF3B600EC4823 /* XCTest.framework in Frameworks */,
+				8F76F044184EF3B600EC4823 /* CoreData.framework in Frameworks */,
+				8F76F043184EF3B600EC4823 /* UIKit.framework in Frameworks */,
+				8F76F042184EF3B600EC4823 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F76F016184EF3B500EC4823 = {
+			isa = PBXGroup;
+			children = (
+				8F76F07E184F010100EC4823 /* Podfile */,
+				8F76F02A184EF3B600EC4823 /* colazo */,
+				8F76F047184EF3B600EC4823 /* colazoTests */,
+				8F76F021184EF3B600EC4823 /* Frameworks */,
+				8F76F020184EF3B600EC4823 /* Products */,
+				AE1E869BFED843F18EEC3CAE /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		8F76F020184EF3B600EC4823 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F76F01F184EF3B600EC4823 /* Bicimapa.app */,
+				8F76F03F184EF3B600EC4823 /* colazoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F76F021184EF3B600EC4823 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9037518819CA240800BBFF5B /* libsqlite3.dylib */,
+				9037518619CA207800BBFF5B /* libGoogleAnalyticsServices.a */,
+				5CD45E05189BD55C0092C1EA /* GoogleMaps.bundle */,
+				5CD45E03189BD5370092C1EA /* GoogleMaps.framework */,
+				8FF358A7186028470059CB4B /* AdSupport.framework */,
+				8F76F079184EF80B00EC4823 /* SystemConfiguration.framework */,
+				8F76F077184EF80000EC4823 /* QuartzCore.framework */,
+				8F76F075184EF7FA00EC4823 /* OpenGLES.framework */,
+				8F76F073184EF7F200EC4823 /* libz.dylib */,
+				8F76F071184EF7E900EC4823 /* libicucore.dylib */,
+				8F76F06F184EF7DE00EC4823 /* libc++.dylib */,
+				8F76F06D184EF7D700EC4823 /* ImageIO.framework */,
+				8F76F06B184EF7CF00EC4823 /* GLKit.framework */,
+				8F76F069184EF7C900EC4823 /* CoreText.framework */,
+				8F76F067184EF7C200EC4823 /* CoreLocation.framework */,
+				8F76F065184EF7B100EC4823 /* AVFoundation.framework */,
+				8F76F022184EF3B600EC4823 /* Foundation.framework */,
+				8F76F024184EF3B600EC4823 /* CoreGraphics.framework */,
+				8F76F026184EF3B600EC4823 /* UIKit.framework */,
+				8F76F028184EF3B600EC4823 /* CoreData.framework */,
+				8F76F040184EF3B600EC4823 /* XCTest.framework */,
+				365C440FDF9F42D8834A01BA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F76F02A184EF3B600EC4823 /* colazo */ = {
+			isa = PBXGroup;
+			children = (
+				9037517D19CA1F8800BBFF5B /* GAI.h */,
+				9037517E19CA1F8800BBFF5B /* GAIDictionaryBuilder.h */,
+				9037517F19CA1F8800BBFF5B /* GAIEcommerceProduct.h */,
+				9037518019CA1F8800BBFF5B /* GAIEcommerceProductAction.h */,
+				9037518119CA1F8800BBFF5B /* GAIEcommercePromotion.h */,
+				9037518219CA1F8800BBFF5B /* GAIFields.h */,
+				9037518319CA1F8800BBFF5B /* GAILogger.h */,
+				9037518419CA1F8800BBFF5B /* GAITrackedViewController.h */,
+				9037518519CA1F8800BBFF5B /* GAITracker.h */,
+				8F76F083184F09A500EC4823 /* images */,
+				8F76F080184F02DA00EC4823 /* BicimapaAPI.h */,
+				8F76F081184F02DA00EC4823 /* BicimapaAPI.m */,
+				8FC9D5B8185832C500E751BA /* NSString_stripHtml.m */,
+				8FC9D5B9185832C500E751BA /* NSString_stripHtml.h */,
+				8FDFD2F818615A7D003AD0E6 /* KeyHeader.h */,
+				8F76F09C185045DF00EC4823 /* ViewController.h */,
+				8F76F09D185045DF00EC4823 /* ViewController.m */,
+				8F76F0A118504E8600EC4823 /* ModalViewController.h */,
+				8F76F0A218504E8600EC4823 /* ModalViewController.m */,
+				8F76F0ED1850541400EC4823 /* FilterDelegate.h */,
+				8F76F033184EF3B600EC4823 /* AppDelegate.h */,
+				8F76F034184EF3B600EC4823 /* AppDelegate.m */,
+				8F76F039184EF3B600EC4823 /* Images.xcassets */,
+				8F76F0A618504F4200EC4823 /* Storyboard.storyboard */,
+				8F40F856185E963D0027258F /* DescribePlaceViewController.h */,
+				8F40F857185E963D0027258F /* DescribePlaceViewController.m */,
+				8FC9D5BB185908FE00E751BA /* AddPlaceViewController.h */,
+				8FC9D5BC185908FE00E751BA /* AddPlaceViewController.m */,
+				8F76F036184EF3B600EC4823 /* colazo.xcdatamodeld */,
+				8F40F84F185E6E5B0027258F /* Route.h */,
+				8F40F850185E6E5B0027258F /* Route.m */,
+				8F40F84C185E6E5B0027258F /* Place.h */,
+				8F40F84D185E6E5B0027258F /* Place.m */,
+				8F40F849185E6E5B0027258F /* Ciclovia.h */,
+				8F40F84A185E6E5B0027258F /* Ciclovia.m */,
+				8F76F02B184EF3B600EC4823 /* Supporting Files */,
+				8FC9D5B0185819E100E751BA /* MarkerViewController.h */,
+				8FC9D5B1185819E100E751BA /* MarkerViewController.m */,
+			);
+			path = colazo;
+			sourceTree = "<group>";
+		};
+		8F76F02B184EF3B600EC4823 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F76F02C184EF3B600EC4823 /* colazo-Info.plist */,
+				8F76F02D184EF3B600EC4823 /* InfoPlist.strings */,
+				8F76F030184EF3B600EC4823 /* main.m */,
+				8F76F032184EF3B600EC4823 /* colazo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F76F047184EF3B600EC4823 /* colazoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F76F04D184EF3B600EC4823 /* colazoTests.m */,
+				8F76F048184EF3B600EC4823 /* Supporting Files */,
+			);
+			path = colazoTests;
+			sourceTree = "<group>";
+		};
+		8F76F048184EF3B600EC4823 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F76F049184EF3B600EC4823 /* colazoTests-Info.plist */,
+				8F76F04A184EF3B600EC4823 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F76F083184F09A500EC4823 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9037517B19CA12AB00BBFF5B /* alquiler.png */,
+				8FDFD2F418613981003AD0E6 /* star.png */,
+				8FDFD2F518613981003AD0E6 /* starhighlighted.png */,
+				8F76F086184F0A6700EC4823 /* biciamigo.png */,
+				8F40F83B185E6BCE0027258F /* biciamigo@2x.png */,
+				8F76F087184F0A6700EC4823 /* elbicitante.png */,
+				8F40F83D185E6C140027258F /* elbicitante@2x.png */,
+				8F76F088184F0A6700EC4823 /* atencion.png */,
+				8F40F83F185E6C370027258F /* atencion@2x.png */,
+				8F76F089184F0A6700EC4823 /* ruta.png */,
+				8F40F841185E6C560027258F /* ruta@2x.png */,
+				8F76F08A184F0A6700EC4823 /* taller.png */,
+				8F40F843185E6C710027258F /* taller@2x.png */,
+				8F76F08B184F0A6700EC4823 /* parqueadero.png */,
+				8F40F845185E6C8A0027258F /* parqueadero@2x.png */,
+				8F76F08C184F0A6700EC4823 /* tienda.png */,
+				8F40F847185E6CAA0027258F /* tienda@2x.png */,
+				8F40F852185E776C0027258F /* ciclovias.png */,
+				8F40F854185E77750027258F /* ciclorutas.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F76F01E184EF3B600EC4823 /* colazo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F76F051184EF3B600EC4823 /* Build configuration list for PBXNativeTarget "colazo" */;
+			buildPhases = (
+				AC4DF46BEBC54FDF89DB2129 /* Check Pods Manifest.lock */,
+				8F76F01B184EF3B600EC4823 /* Sources */,
+				8F76F01C184EF3B600EC4823 /* Frameworks */,
+				8F76F01D184EF3B600EC4823 /* Resources */,
+				CEADC82B7C7C4AC585E87351 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = colazo;
+			productName = colazo;
+			productReference = 8F76F01F184EF3B600EC4823 /* Bicimapa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F76F03E184EF3B600EC4823 /* colazoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F76F054184EF3B600EC4823 /* Build configuration list for PBXNativeTarget "colazoTests" */;
+			buildPhases = (
+				8F76F03B184EF3B600EC4823 /* Sources */,
+				8F76F03C184EF3B600EC4823 /* Frameworks */,
+				8F76F03D184EF3B600EC4823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F76F046184EF3B600EC4823 /* PBXTargetDependency */,
+			);
+			name = colazoTests;
+			productName = colazoTests;
+			productReference = 8F76F03F184EF3B600EC4823 /* colazoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F76F017184EF3B500EC4823 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = bicimapa;
+				TargetAttributes = {
+					8F76F01E184EF3B600EC4823 = {
+						DevelopmentTeam = 27HPJN2QX2;
+					};
+					8F76F03E184EF3B600EC4823 = {
+						TestTargetID = 8F76F01E184EF3B600EC4823;
+					};
+				};
+			};
+			buildConfigurationList = 8F76F01A184EF3B500EC4823 /* Build configuration list for PBXProject "colazo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F76F016184EF3B500EC4823;
+			productRefGroup = 8F76F020184EF3B600EC4823 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F76F01E184EF3B600EC4823 /* colazo */,
+				8F76F03E184EF3B600EC4823 /* colazoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F76F01D184EF3B600EC4823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F76F02F184EF3B600EC4823 /* InfoPlist.strings in Resources */,
+				8F40F855185E77750027258F /* ciclorutas.png in Resources */,
+				5CD45E06189BD55C0092C1EA /* GoogleMaps.bundle in Resources */,
+				8F76F08D184F0A6700EC4823 /* biciamigo.png in Resources */,
+				8F76F08E184F0A6700EC4823 /* elbicitante.png in Resources */,
+				8F76F03A184EF3B600EC4823 /* Images.xcassets in Resources */,
+				8F40F842185E6C560027258F /* ruta@2x.png in Resources */,
+				8F76F093184F0A6700EC4823 /* tienda.png in Resources */,
+				8F40F840185E6C370027258F /* atencion@2x.png in Resources */,
+				8F40F844185E6C710027258F /* taller@2x.png in Resources */,
+				8FDFD2F618613981003AD0E6 /* star.png in Resources */,
+				8F76F0A718504F4200EC4823 /* Storyboard.storyboard in Resources */,
+				8F40F83C185E6BCE0027258F /* biciamigo@2x.png in Resources */,
+				8F76F091184F0A6700EC4823 /* taller.png in Resources */,
+				9037517C19CA12AB00BBFF5B /* alquiler.png in Resources */,
+				8F76F07F184F010100EC4823 /* Podfile in Resources */,
+				8F40F853185E776C0027258F /* ciclovias.png in Resources */,
+				8F40F848185E6CAA0027258F /* tienda@2x.png in Resources */,
+				8FDFD2F718613981003AD0E6 /* starhighlighted.png in Resources */,
+				8F76F092184F0A6700EC4823 /* parqueadero.png in Resources */,
+				8F40F83E185E6C140027258F /* elbicitante@2x.png in Resources */,
+				8F76F08F184F0A6700EC4823 /* atencion.png in Resources */,
+				8F40F846185E6C8A0027258F /* parqueadero@2x.png in Resources */,
+				8F76F090184F0A6700EC4823 /* ruta.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F76F03D184EF3B600EC4823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F76F04C184EF3B600EC4823 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC4DF46BEBC54FDF89DB2129 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CEADC82B7C7C4AC585E87351 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F76F01B184EF3B600EC4823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC9D5BA185832C500E751BA /* NSString_stripHtml.m in Sources */,
+				8F76F082184F02DA00EC4823 /* BicimapaAPI.m in Sources */,
+				8F76F09F185045DF00EC4823 /* ViewController.m in Sources */,
+				8F40F84E185E6E5B0027258F /* Place.m in Sources */,
+				8FC9D5B3185819E100E751BA /* MarkerViewController.m in Sources */,
+				8F76F0A418504E8600EC4823 /* ModalViewController.m in Sources */,
+				8F40F858185E963D0027258F /* DescribePlaceViewController.m in Sources */,
+				8F76F035184EF3B600EC4823 /* AppDelegate.m in Sources */,
+				8F40F84B185E6E5B0027258F /* Ciclovia.m in Sources */,
+				8FC9D5BD185908FE00E751BA /* AddPlaceViewController.m in Sources */,
+				8F40F851185E6E5B0027258F /* Route.m in Sources */,
+				8F76F031184EF3B600EC4823 /* main.m in Sources */,
+				8F76F038184EF3B600EC4823 /* colazo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F76F03B184EF3B600EC4823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F76F04E184EF3B600EC4823 /* colazoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F76F046184EF3B600EC4823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F76F01E184EF3B600EC4823 /* colazo */;
+			targetProxy = 8F76F045184EF3B600EC4823 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F76F02D184EF3B600EC4823 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F76F02E184EF3B600EC4823 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F76F04A184EF3B600EC4823 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F76F04B184EF3B600EC4823 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F76F04F184EF3B600EC4823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F76F050184EF3B600EC4823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F76F052184EF3B600EC4823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1E869BFED843F18EEC3CAE /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ylecuyer/Desktop/colazo-ios",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colazo/colazo-Prefix.pch";
+				INFOPLIST_FILE = "colazo/colazo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ylecuyer/Desktop/colazo-ios",
+					"/Users/ylecuyer/Desktop/colazo-ios/colazo/**",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = Bicimapa;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F76F053184EF3B600EC4823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1E869BFED843F18EEC3CAE /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ylecuyer/Desktop/colazo-ios",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colazo/colazo-Prefix.pch";
+				INFOPLIST_FILE = "colazo/colazo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ylecuyer/Desktop/colazo-ios",
+					"/Users/ylecuyer/Desktop/colazo-ios/colazo/**",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = Bicimapa;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8F76F055184EF3B600EC4823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/colazo.app/colazo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colazo/colazo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "colazoTests/colazoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8F76F056184EF3B600EC4823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/colazo.app/colazo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colazo/colazo-Prefix.pch";
+				INFOPLIST_FILE = "colazoTests/colazoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F76F01A184EF3B500EC4823 /* Build configuration list for PBXProject "colazo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F76F04F184EF3B600EC4823 /* Debug */,
+				8F76F050184EF3B600EC4823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F76F051184EF3B600EC4823 /* Build configuration list for PBXNativeTarget "colazo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F76F052184EF3B600EC4823 /* Debug */,
+				8F76F053184EF3B600EC4823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F76F054184EF3B600EC4823 /* Build configuration list for PBXNativeTarget "colazoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F76F055184EF3B600EC4823 /* Debug */,
+				8F76F056184EF3B600EC4823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8F76F036184EF3B600EC4823 /* colazo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8F76F037184EF3B600EC4823 /* colazo.xcdatamodel */,
+			);
+			currentVersion = 8F76F037184EF3B600EC4823 /* colazo.xcdatamodel */;
+			path = colazo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8F76F017184EF3B500EC4823 /* Project object */;
+}
